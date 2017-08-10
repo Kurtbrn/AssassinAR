@@ -4,8 +4,5 @@
              xmlns:local="clr-namespace:AssassinVR"
              x:Class="AssassinVR.MainPage">
 
-	<Label Text="Welcome to AssassinVR!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    
 </ContentPage>

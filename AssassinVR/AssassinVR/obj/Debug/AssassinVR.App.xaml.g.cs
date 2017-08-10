@@ -11,8 +11,7 @@
 namespace AssassinVR {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\boi\\documents\\visual studio 2017\\Projects\\AssassinVR\\AssassinVR\\Assassin" +
-        "VR\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\boi\\Documents\\GitHub\\AssassinVR\\AssassinVR\\AssassinVR\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

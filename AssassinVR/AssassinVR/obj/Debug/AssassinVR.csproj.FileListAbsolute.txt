@@ -23,8 +23,10 @@ C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.csprojResolveAssemblyReference.cache
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.MainPage.xaml.g.cs
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.App.xaml.g.cs
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.dll
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.pdb
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Maps.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.csprojResolveAssemblyReference.cache
