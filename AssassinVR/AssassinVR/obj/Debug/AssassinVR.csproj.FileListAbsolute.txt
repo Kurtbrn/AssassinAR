@@ -30,3 +30,13 @@ C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\Assassi
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Maps.dll
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.Forms.Maps.xml
 C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\obj\Debug\AssassinVR.csprojResolveAssemblyReference.cache
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.iOS.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Mono.Security.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.Core.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.Xml.dll
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Xamarin.iOS.xml
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.pdb
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\Mono.Security.pdb
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.Core.pdb
+C:\Users\boi\Documents\GitHub\AssassinVR\AssassinVR\AssassinVR\bin\Debug\System.Xml.pdb
