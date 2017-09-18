@@ -3,13 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AssassinVR"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             x:Class="AssassinVR.MainPage">
+             x:Class="AssassinVR.MainPage"
+             Title="Main"
+             Icon="main.png">
 
     <StackLayout>
+        <Label x:Name="Timex"
+               Text=""
+               HorizontalOptions="Center"/>
         <maps:Map WidthRequest="320" HeightRequest="200"
             x:Name="MyMap"
             IsShowingUser="true"
-            MapType="Hybrid"
-        />
+            MapType="Street"/>
+        <Button
+            Text="Start mission"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill"
+            Clicked="ButtonClicked"/>
+        <Button
+            Text="Finish mission"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill"
+            Clicked="ButtonClicked"/>
     </StackLayout>
 </ContentPage>

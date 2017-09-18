@@ -13,7 +13,7 @@ namespace AssassinVR
         {
             InitializeComponent();
 
-            MainPage = new AssassinVR.MainPage();
+            MainPage = new AssassinVR.MasterPage();
         }
 
         protected override void OnStart()

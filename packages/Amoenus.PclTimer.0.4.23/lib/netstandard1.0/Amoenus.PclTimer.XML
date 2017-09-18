@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Amoenus.PclTimer</name>
+    </assembly>
+    <members>
+        <member name="T:Amoenus.PclTimer.CountDownTimer">
+            <summary>
+                Timer that counts up
+            </summary>
+            <seealso cref="T:Amoenus.PclTimer.BaseTimer" />
+        </member>
+        <member name="M:Amoenus.PclTimer.CountDownTimer.#ctor(System.TimeSpan)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Amoenus.PclTimer.CountDownTimer" /> class. Default tick interval is 1 second
+            </summary>
+            <param name="startTime">The start time.</param>
+        </member>
+        <member name="E:Amoenus.PclTimer.CountDownTimer.ReachedZero">
+            <summary>
+                Occurs when countdown reaches zero.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.CountDownTimer.RaiseReachedZeroEvent">
+            <summary>
+                Raises the countdown reached zero event.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.CountDownTimer.CountCurrent">
+            <summary>
+                Counts down the time and raises the IntervalPassed event.
+            </summary>
+        </member>
+        <member name="T:Amoenus.PclTimer.ICountDownTimer">
+            <summary>
+            Interface for CountDownTimer
+            </summary>
+            <seealso cref="T:Amoenus.PclTimer.IPclTimer" />
+        </member>
+        <member name="E:Amoenus.PclTimer.ICountDownTimer.ReachedZero">
+            <summary>
+                Occurs when countdown reaches zero.
+            </summary>
+        </member>
+        <member name="T:Amoenus.PclTimer.IPclTimer">
+            <summary>
+                PCL Timer Interface
+            </summary>
+        </member>
+        <member name="P:Amoenus.PclTimer.IPclTimer.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>
+            The interval.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.IPclTimer.IsTimerStopped">
+            <summary>
+                Gets a value indicating whether this instance of a timer is currently stopped.
+            </summary>
+            <value>
+                <c>true</c> if this instance of a timer is currently stopped; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.IPclTimer.IsTimerRunning">
+            <summary>
+                Gets a value indicating whether this instance of a timer is currently running.
+            </summary>
+            <value>
+                <c>true</c> if this instance of a timer is currently running; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.IPclTimer.CurrentTime">
+            <summary>
+                Gets current count down time.
+            </summary>
+            <value>
+                The count down time.
+            </value>
+        </member>
+        <member name="M:Amoenus.PclTimer.IPclTimer.Start">
+            <summary>
+                Starts the timer.
+                Please note that if invoked when current CountDownTime is at 0
+                ReachedZero Event will still be fired and the CountDownTime will remain at zero.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.IPclTimer.Stop">
+            <summary>
+                Pauses the timer.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.IPclTimer.Reset">
+            <summary>
+                Stops and resets the timer to initial start time.
+            </summary>
+        </member>
+        <member name="E:Amoenus.PclTimer.IPclTimer.IntervalPassed">
+            <summary>
+                Occurs on each tick between specified interval.
+            </summary>
+        </member>
+        <member name="T:Amoenus.PclTimer.CountUpTimer">
+            <summary>
+                Timer that counts down
+            </summary>
+            <seealso cref="T:Amoenus.PclTimer.BaseTimer" />
+        </member>
+        <member name="M:Amoenus.PclTimer.CountUpTimer.#ctor(System.TimeSpan)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Amoenus.PclTimer.CountUpTimer" /> class. Default tick interval is 1 second
+            </summary>
+            <param name="startTime">The start time.</param>
+        </member>
+        <member name="M:Amoenus.PclTimer.CountUpTimer.CountCurrent">
+            <summary>
+                Counts up the time and raises the IntervalPassed event.
+            </summary>
+        </member>
+        <member name="T:Amoenus.PclTimer.BaseTimer">
+            <summary>
+            Base implementation shared by Up and Down timers
+            </summary>
+            <seealso cref="T:Amoenus.PclTimer.IPclTimer" />
+        </member>
+        <member name="F:Amoenus.PclTimer.BaseTimer._startTime">
+            <summary>
+                The current time of the count down
+            </summary>
+        </member>
+        <member name="F:Amoenus.PclTimer.BaseTimer._currentTime">
+            <summary>
+                The current time of the count down
+            </summary>
+        </member>
+        <member name="F:Amoenus.PclTimer.BaseTimer._timerRunning">
+            <summary>
+                Denotes whether the timer is running or not
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.#ctor(System.TimeSpan)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Amoenus.PclTimer.BaseTimer"/> class.
+            </summary>
+            <param name="startTime">The start time.</param>
+        </member>
+        <member name="P:Amoenus.PclTimer.BaseTimer.CurrentTime">
+            <summary>
+                Gets current count down time.
+            </summary>
+            <value>
+                The count down time.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.BaseTimer.Interval">
+            <summary>
+                Gets the interval between ticks.
+            </summary>
+            <value>
+                The interval.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.BaseTimer.IsTimerStopped">
+            <summary>
+                Gets a value indicating whether this instance of a timer is currently stopped.
+            </summary>
+            <value>
+                <c>true</c> if this instance of a timer is currently stopped; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Amoenus.PclTimer.BaseTimer.IsTimerRunning">
+            <summary>
+                Gets a value indicating whether this instance of a timer is currently running.
+            </summary>
+            <value>
+                <c>true</c> if this instance of a timer is currently running; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:Amoenus.PclTimer.BaseTimer.IntervalPassed">
+            <summary>
+                Occurs on each tick between specified interval.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.RaiseIntervalPassedEvent">
+            <summary>
+            Raises the interval passed event.
+            </summary>
+            <exception cref="T:System.Exception">A delegate callback throws an exception.</exception>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.Start">
+            <summary>
+                Starts the timer.
+                Please note that if invoked when current CountDownTime is at 0
+                ReachedZero Event will still be fired and the CountDownTime will remain at zero.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.Stop">
+            <summary>
+                Pauses the timer.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.Reset">
+            <summary>
+                Stops and resets the timer to initial start time.
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.RunTimerAsync">
+            <summary>
+                Timer loop that invokes IntervalPassed event and
+            </summary>
+        </member>
+        <member name="M:Amoenus.PclTimer.BaseTimer.CountCurrent">
+            <summary>
+            Counts the current time.
+            </summary>
+        </member>
+    </members>
+</doc>
